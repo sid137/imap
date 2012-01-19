@@ -53,9 +53,9 @@ class MyImap < Net::IMAP
   end
 
   def collect_data
-    #self.search(['ALL']).each do |seqno|
+    self.search(['ALL']).each do |seqno|
     #self.search(['RECENT']).each do |seqno|
-    self.search(['NOT', 'SEEN']).each do |seqno|
+    # self.search(['NOT', 'SEEN']).each do |seqno|
       if ($DEBUG)
         puts "not seen:#{seqno}"
       end

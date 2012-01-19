@@ -1,0 +1,11 @@
+:~/dev/imap $ ./imap_cli.rb             
+/Users/noli/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/rubygems/custom_require.rb:55:in `require': iconv will be deprecated in the future, use String#encode instead.
+dyld: lazy symbol binding failed: Symbol not found: _rb_get_kcode
+  Referenced from: /Users/noli/.rvm/gems/ruby-1.9.3-p0/gems/tmail-1.2.7.1/ext/tmailscanner/tmail/tmailscanner.bundle
+  Expected in: flat namespace
+
+dyld: Symbol not found: _rb_get_kcode
+  Referenced from: /Users/noli/.rvm/gems/ruby-1.9.3-p0/gems/tmail-1.2.7.1/ext/tmailscanner/tmail/tmailscanner.bundle
+  Expected in: flat namespace
+
+zsh: trace trap  ./imap_cli.rb
